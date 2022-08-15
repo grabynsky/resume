@@ -90,6 +90,9 @@ footer{
     main p, .wrapper p {
         font-size: .7rem;
     }
+    .skills li{
+        font-size: .7rem;
+    }
     .header{
         align-items:flex-start
     }
