@@ -81,3 +81,51 @@ footer{
     width: 100%;
     height: 3rem;
 }
+
+@media(max-width:576px){
+    main, .wrapper{
+        width:100%;
+        padding: 1rem;
+    }
+    main p, .wrapper p {
+        font-size: .7rem;
+    }
+    .header{
+        align-items:flex-start
+    }
+    .header_foto__img{
+        width: 20vh;
+        height: 15vh;
+        border-radius: 50%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h2::after, .header_contacts::after{
+        width: 100%;
+        height: 2px;
+        margin-top: 2rem;
+    }
+}
+@media(max-width:768px) and (min-width:768px) {
+    body{
+        margin: 0 auto;
+    }
+   
+    main, .wrapper{
+        width:85%;
+        padding: 1rem;
+        margin: 0 5px;
+    }
+    .section-2{
+        justify-content: space-between;
+        font-size: .8rem;
+    }
+    .header_foto__img{
+        width: 55vh;
+        height: 60vh;
+    }
+}
